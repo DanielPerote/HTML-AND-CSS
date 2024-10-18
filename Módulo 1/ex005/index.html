@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito</h2>
+    <p>Nessa frase temos uma palavra em <b>Negrito</b> usando a tag B(Não Semântica).</p>
+    <p>Nesta frase temos uma palavra com semântica, em <strong>Negrito</strong> usando a tag STRONG(Semântica).</p>
+    <h2>Itálico</h2>
+    <p>Nessa frase temos um <i>pedaco da frase</i> em itáico usando a tag I (Não semântica).</p>
+    <p>Nesta frase temos mais um <em>tiquinho da frase</em> em Itálico porem usando a tag EM (Semântica).</p>
+    <p>Semântica possui significado</p>
+    <a href="https://www.youtube.com/watch?v=m1ROlRqDvbQ">youtube</a>
+
+
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: rgb(142, 142, 211);">um texto marcado usando</mark> a tag MARK.</p>
+    <p><mark>Chocolate com limão</mark></p>
+    <p><mark>Amanha é ferias</mark></p>
+    <p><del>del é texto excluido</del></p>
+    <p><ins>já o ins é texto inserido</ins></p>
+    <h2>textos</h2>
+    <p>texto x<sup>2</sup>and H<sub>2</sub>O</p>
+    <h1>Outras Formatações</h1>
+    <p>O comando <code>document.getElementById('testes')</code>esta escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+num = init(imput('digite um numero'))
+if num %2 == 0
+    print(f'O número {num} é PAR')
+else:
+    print(f'o número {num} é IMPAR')   
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <h2>Citações completa</h2>
+    <p>Segundo Jeff Noble, no seu livro HTMl :</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML/3nm7BQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&pg=PA9&printsec=frontcover">
+        Write HTML Using NOtepad or TextEdit
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr>
+    e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+</body> 
+</html>

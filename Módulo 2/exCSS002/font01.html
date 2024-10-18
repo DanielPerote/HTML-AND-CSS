@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fontes</title>
+    <style>
+        @font-face {
+            font-family: "Padrao";
+            src: url("fontes/Consul.ttf");
+            format('truetype');
+            font-weight: normal;
+            sont-style: normal;
+        }
+        @font-face {
+            font-family: 'Estilosa';
+            src: url("fontes/Stalysta_personal\ use.ttf") format('truetype');
+            font-wight: normal;
+            font-style: normal;
+            /* 
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype 
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Gowun+Batang:wght@400;700&display=swap');
+        body {
+            font-family: monospace Arial, Helvetica, sans-serif, monospace;
+
+            h1 {
+                font-family: "Gowun Batang", serif;
+            font-size: 2em;
+            color: blue;
+        }
+        /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+        }
+        h2 {
+           font-family: 'Estilosa' , Times, serif;
+           font-size: 2em;
+           font-weight: bold; 
+        }
+        p {
+            font-family: "Padrao", Times, serif;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolore aliquam quo eum cumque non amet voluptatem repellendus. Iste ut consequuntur blanditiis quasi, deleniti laborum tempore dolore. Sed, doloribus! Voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium delectus assumenda explicabo reiciendis voluptates cupiditate quidem hic nostrum debitis dolorum. Sapiente sit dicta quasi nam voluptatem id quisquam perferendis nulla.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat libero omnis aliquam, veritatis quaerat eligendi. Fuga voluptates, maiores blanditiis hic amet nobis ullam qui similique ea, error voluptatibus delectus pariatur?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error obcaecati illo, explicabo hic pariatur! Explicabo quaerat dicta quia possimus placeat dolorem provident ex voluptate exercitationem voluptatem. Et, commodi id! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis itaque et harum perferendis! Qui nostrum, totam dolor quis odit et sapiente dignissimos soluta dolorem vel fugit consequatur dicta quam vitae!</p>
+    
+</body>
+</html>
