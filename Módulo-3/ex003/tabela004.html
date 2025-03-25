@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exec Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        th , td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .pricol{
+            background-color: lightblue;
+        }
+        .segcol{
+            background-color: rgb(80, 108, 133);
+            color: aliceblue;
+            font-size: bold;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: white;
+        }
+        #test{
+            overflow-x: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="test">
+        <table>
+            <colgroup>
+                <col class="pricol">
+                <col class="segcol">
+                <col class="tercol">
+            </colgroup>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>teste</th>
+                <th>test</th>
+                <th>tste</th>
+                <th>tet</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Program</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Vendedor</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
