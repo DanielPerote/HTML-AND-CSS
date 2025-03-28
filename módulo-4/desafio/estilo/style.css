@@ -59,6 +59,9 @@ section#sociais img{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
     box-sizing: border-box;
 }
+section#sociais > a{
+    background-size: contain;
+}
 section#sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.541);
     transform: translate(-3px, -3px);
