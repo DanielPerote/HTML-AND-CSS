@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*estilo para celular*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(150, 129, 175);
+}
+
+main{
+    background-color: antiquewhite;
+}
+
+section{
+    width: 80px;
+    height: 40px;
+}
+
+div#img{
+    width: 400px;
+    height: 400px;
+    background: black ur(../imagens/pexels-vinixhc-31523679.jpg);
+}
