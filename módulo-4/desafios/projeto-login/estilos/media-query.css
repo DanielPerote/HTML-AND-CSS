@@ -34,4 +34,15 @@
         width: 50%;
         font-size: 1.2em;
     }
+    div.campo > input{
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 48px);
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 2px;
+    
+        transform: translatey(-17px);
+    }
 }
