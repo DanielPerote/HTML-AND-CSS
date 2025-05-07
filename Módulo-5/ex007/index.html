@@ -15,22 +15,24 @@
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 150px;
-            flex-shrink: 1;
-            flex-grow: 1;
+        }
+        div#f1{
+            flex: 0 1 150px;
+        }
+        div#f2{
+           flex:  1 0 150px;
+        }
+        div#f3{
+            flex: 5;
         }
     </style>
 </head>
 <body>
     <h1>Criando flex box</h1>
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">BBBBBBBBBBB</div>
-        <div class="item">C</div>
-        <div class="item">DDDDDD</div>
-        <div class="item">EEE</div>
-        <div class="item">FFFFFFFFFFFFF</div>
-        <div class="item">G</div>
+        <div class="item" id="f1">A</div>
+        <div class="item" id="f2">B</div>
+        <div class="item" id="f3">C</div>
     </div>
 </body>
 </html>
